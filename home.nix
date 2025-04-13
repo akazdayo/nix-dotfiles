@@ -9,5 +9,8 @@
     mise = {
       enable = true;
     };
+    fastfetch = {
+      enable = true;
+    };
   };
 }
