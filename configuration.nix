@@ -60,5 +60,8 @@
       enable = true;
     };
     nix-ld.enable = true;
+    wget = {
+	enable = true;
+    };
   };
 }

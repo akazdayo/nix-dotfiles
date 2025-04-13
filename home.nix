@@ -4,5 +4,10 @@
     homeDirectory = "/home/${username}"; # 文字列に値を埋め込む
     stateVersion = "22.11";
   };
-  programs.home-manager.enable = true; # home-manager自身でhome-managerを有効化
+  programs = {
+    home-manager.enable = true;
+    mise = {
+      enable = true;
+    };
+  };
 }
